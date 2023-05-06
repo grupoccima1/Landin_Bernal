@@ -103,8 +103,14 @@ h4{
 }
 .fs_20px{
     font-size: 16px;
-    font-weight: bold;
-    
+    font-weight: bold;    
+}
+.fs_22px{
+    font-size: 2px;    
+}
+
+.hr_white{
+    border: 1px #fff solid ;
 }
 .fs__6{
 margin-top: 0;
@@ -124,6 +130,9 @@ font-size: 1.5rem;
     color: #fff;
     font-weight: 100;
     font-size: 0.9rem;
+}
+.fs_22px{
+    font-size: 22px;    
 }
 
 
