@@ -125,7 +125,9 @@ font-weight: bold;
 font-weight: bold;
 font-size: 1.5rem;
 }
-
+.w48px{
+    width: 3rem;
+}
 .text-white {
     color: #fff;
     font-weight: 100;
@@ -1603,4 +1605,8 @@ footer {
     .m__footer{
         padding-left: 7rem!important;
     }
+}
+
+#gracias_hero{
+    display: none;
 }

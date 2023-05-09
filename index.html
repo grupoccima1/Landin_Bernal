@@ -92,7 +92,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="formulario_desktop" class="col-md-4 col-sm-12 text-center z-99">
         <div class="formulario">
           <div class="formcontainer mt_7rem">
-            <div id="" class="d-none">
+            <div id="formulario_hero" class="">
               <form id="formulario" action="https://formsubmit.co/hola@grupoccima.com" method="POST" class="">
                 <h4 class="fs__2 text-white pb-2">Obtén descuentos desde <span class="precio-for">$200,000 </span> haciendo click aquí.</h4>
                 <div class="mb-3">
@@ -114,19 +114,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <input type="hidden" name="_captcha" value="false">
               </form>
             </div>
-            <div id="" class="">
+            <div id="gracias_hero" class="">
               <h4 class="fs__1 text-white pb-2">¡Muchas  Gracias! </h4>
               <p class="text-white fs_22px"> Tu solicitud fue  enviada con éxito</p>
-              <p class="text-white fs_22px pb-3"> En breve nos estaremos comunicando contigo</p>
+              <p class="text-white fs_22px pb-3">En breve nos comunicaremos contigo</p>
               <hr class="hr_white" >
               <form action="" class="mt-4">
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">¿Como fue tu expriencoia en esta Página?</label>
-                  <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" required>
+                  <label for="exampleInputEmail1" class="form-label">¿Cómo fue tu experiencia en esta página?</label>
+                  <div class="d-flex justify-content-center mt-2 mb-3">
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita _roja.svg" alt=""></div>
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita_naranja.svg" alt=""></div>
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita_verde.svg" alt=""></div>
+                  </div>
                 </div>
                 
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">¿Te gustaria Dejarnos tu Opinión?</label>
+                  <label for="exampleInputEmail1" class="form-label">¿Te gustaría dejarnos tu opinión?</label>
                   <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" required>
                 </div>
                 <button type="submit" id="viewAlerta" value="Ver Alerta"
@@ -162,10 +166,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row mb-5 justify-content-center">
         <div class="col-12 col-sm-10 col-md-8 ">
          <div class="formulario-movil">
-          <div class="formulario mt-3">
-            <div class="d-none">
+          <div class="formulario mt-3 formcontainer">
+            <div id="formulario-movil2" class="">
 
-              <form id="formulario" action="https://formsubmit.co/hola@grupoccima.com" method="POST" class="formcontainer">
+              <form id="formulario" action="https://formsubmit.co/hola@grupoccima.com" method="POST" class="">
               <h4 class="fs__2 text-white pb-4 text-center">Obtén descuentos desde <span class="precio-for">$200,000 </span> haciendo click aquí.</h4>
                 <div class="mb-3 text-center">
                   <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
@@ -180,11 +184,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <input type="int" class="form-control" id="int_telefono" name="int_telefono" maxlength="10" required>
                 </div>
           
-                <button type="submit" id="viewAlerta" value="Ver Alerta"
-                  class="btn boton  btn-light btn-radi btn-listo">¡Estoy Listo!</button>
-  
+                  <button type="submit" id="viewAlerta" value="Ver Alerta"
+                  class="btn boton btn-light btn-radi btn-listo">¡Estoy Listo!</button>
                   <input type="hidden" name="_next" value="https://bernal.grupoccima.com/">
                   <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+            <div id="gracias_hero2" class="d-none">
+              <h4 class="fs__1 text-white pb-2 text-center">¡Muchas  Gracias! </h4>
+              <p class="text-white fs_22px text-center"> Tu solicitud fue  enviada con éxito</p>
+              <p class="text-white fs_22px text-center pb-3">En breve nos comunicaremos contigo</p>
+              <hr class="hr_white" >
+              <form action="" class="mt-4">
+                <div class="mb-3 text-center">
+                  <label for="exampleInputEmail1" class="form-label">¿Cómo fue tu experiencia en esta página?</label>
+                  <div class="d-flex justify-content-center mt-2 mb-3">
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita _roja.svg" alt=""></div>
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita_naranja.svg" alt=""></div>
+                    <div class="mx-4 w48px" ><img src="images/iconos/carita_verde.svg" alt=""></div>
+                  </div>
+                </div>
+                
+                <div class="mb-3 text-center">
+                  <label for="exampleInputEmail1" class="form-label">¿Te gustaría dejarnos tu opinión?</label>
+                  <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" required>
+                </div>
+                <button type="submit" id="viewAlerta" value="Ver Alerta"
+                  class="btn boton ltt_spa   btn-light btn-radio">¡Enviar!</button>
               </form>
             </div>
           </div>
@@ -685,6 +711,12 @@ add_chatinline();</script>
 <!-- Event snippet for Envio de formulario para clientes potenciales conversion page -->
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-11074178022/Gj6cCNb1rZMYEOaXyqAp'});
+</script>
+<script>
+  a = document.getElementsById("formulario_hero")
+  a.style.display = "none";
+  b = document.getElementsById("gracias_hero")
+  a.style.display = "block";
 </script>
 
 </body>
