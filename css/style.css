@@ -245,7 +245,7 @@ font-size: 1.5rem;
 }
 
 .navbar-brand img {
-    width: 8rem;
+    width: 7rem;
 }
 
 .navbar-nav li {
@@ -947,7 +947,7 @@ font-weight: normal;
 }
 
 .navbar-brand img {
-    width: 8rem;
+    width: 7rem;
 }
 
 .navbar-nav li {
@@ -1610,4 +1610,30 @@ footer {
 
 .ocultar{
     display: none;
+}
+.btn_radio{
+    appearance: none;
+}
+input[type="radio"]:checked +  label img{
+    font-weight: bolder; 
+    transform: scale(1.3);
+}
+
+
+
+
+/* Cambios 12-07-2023 */
+.lp-link{
+    margin-left: 250px;
+    height: 90%;
+    padding: 5px;
+    border-radius: 9px;
+    border:3px solid #00a5ce;
+    transition: all ease-in .2s;
+    box-shadow: 1px 2px 3px 0px #474040ab;
+}
+.border-naranja{
+    padding: 9px;
+    border-radius: 10px;
+    border:2px solid #00a5ce ;
 }
